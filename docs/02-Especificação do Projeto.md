@@ -1,109 +1,126 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
-Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
+### Mariana Souza, 27 anos
 
-Utilize também como referência o exemplo abaixo:
+![Imagem de Mariana](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e3-proj-mov-t2-delivery/blob/main/docs/img/PersonaMariana.jpg)
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/IntApplicationProject-Template/blob/main/docs/img/AnaClara1.png" alt="Persona1"/>
+Profissão: Criadora de Conteúdo Culinário.<br>
+Local: São Paulo, Brasil.<br>
+Tecnologias:
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+- Smartphone;
+- Laptop;
+- Câmera para gravação.<br>
 
-> **Links Úteis**:
-> 
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Objetivos:
+
+- Criar conteúdo dinâmico e engajador sobre receitas;
+- Fornecer versões resumidas dos vídeos para seguidores que buscam rapidez;
+- Aumentar o engajamento nas redes sociais.<br>
+
+Desafios:
+
+- Editar vídeos de forma eficiente;
+- Criar versões curtas sem perder informações essenciais;
+- Manter a audiência engajada com conteúdo objetivo.<br>
+
+Como o aplicativo pode ajudar:
+
+- Gerar automaticamente resumos de vídeos com os principais passos da receita;
+- Criar descrições organizadas para melhor indexação nas redes sociais;
+- Automatizar a extração de ingredientes e tempos de preparo.
+
+### Ricardo Lima, 35 anos
+
+![Imagem de Ricardo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e3-proj-mov-t2-delivery/blob/main/docs/img/PersonaRicardo.jpg)
+
+Profissão: Cozinheiro Autodidata.<br>
+Local: Rio de Janeiro, Brasil.<br>
+Tecnologias:
+
+- Smartphone;
+- Tablet.
+
+Objetivos:
+
+- Aprender receitas novas de forma rápida e prática;
+- Evitar assistir a vídeos longos para extrair informações relevantes;
+- Ter acesso a listas de ingredientes e tempos de preparo de forma organizada.<br>
+
+Desafios:
+
+- Encontrar informações rápidas sem assistir a vídeos completos;
+- Acompanhar receitas enquanto cozinha sem precisar pausar o vídeo constantemente;
+- Acessar resumos confiáveis e bem estruturados.
+
+Como o aplicativo pode ajudar:
+
+- Fornecendo resumos automáticos dos vídeos com os passos principais;
+- Criando listas automáticas de ingredientes;
+- Disponibilizando tempos de preparo de maneira clara.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+| EU COMO... `PERSONA`                    | QUERO/PRECISO ... `FUNCIONALIDADE`                    | PARA ... `MOTIVO/VALOR`                                      |
+| --------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| Criadora de conteúdo culinário          | Gerar automaticamente um resumo de meus vídeos        | Aumentar engajamento e facilitar a distribuição do conteúdo. |
+| Cozinheiro autodidata                   | Obter rapidamente os ingredientes e passos da receita | Economizar tempo e seguir o preparo sem interrupções.        |
+| Estudante universitário                 | Ter acesso a receitas curtas e objetivas              | Preparar pratos rápidos no dia a dia.                        |
+| Pessoa com pouca experiência na cozinha | Receber um guia simplificado das receitas             | Aprender a cozinhar de forma mais intuitiva.                 |
+| Profissional ocupado                    | Conseguir um resumo rápido das receitas               | Cozinhar rapidamente sem assistir ao vídeo inteiro.          |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
+## Modelagem do Processo de Negócio
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+### Análise da Situação Atual
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+Atualmente, muitas pessoas utilizam vídeos online para aprender novas receitas. No entanto, esses vídeos costumam ser longos e contêm informações desnecessárias para quem deseja apenas seguir o passo a passo de forma rápida.
+
+### Descrição Geral da Proposta
+
+A plataforma desenvolvida utilizará Inteligência Artificial para gerar resumos automáticos de vídeos culinários. Com isso, os usuários poderão acessar rapidamente os ingredientes, tempos de preparo e os passos principais da receita, sem precisar assistir ao vídeo completo.
+
+### Processo de Extração de Informação
+
+1. O usuário faz upload do vídeo de uma receita.
+2. A IA analisa o áudio e identifica os ingredientes, tempos e modos de preparo.
+3. Um resumo é gerado automaticamente e apresentado ao usuário.
+
+## Indicadores de Desempenho
+
+| Indicador                            | Objetivo                       | Descrição                                                  | Cálculo                                            | Fonte Dados      | Perspectiva |
+| ------------------------------------ | ------------------------------ | ---------------------------------------------------------- | -------------------------------------------------- | ---------------- | ----------- |
+| Tempo médio para gerar um resumo     | Melhorar eficiência do sistema | Mede o tempo desde o upload até a geração do resumo        | Tempo total / número de uploads                    | Logs do sistema  | Eficiência  |
+| Precisão da extração de ingredientes | Melhorar a precisão da IA      | Mede quantos ingredientes foram corretamente identificados | Ingredientes corretos / ingredientes totais \* 100 | Avaliação manual | Qualidade   |
+| Taxa de uso da plataforma            | Avaliar a adoção da solução    | Mede a quantidade de usuários ativos mensais               | Usuários ativos / total de cadastros \* 100        | Dados do sistema | Engajamento |
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+| ID     | Descrição do Requisito                   | Prioridade |
+| ------ | ---------------------------------------- | ---------- |
+| RF-001 | Permitir upload de vídeos de receitas    | ALTA       |
+| RF-002 | Gerar resumos automáticos dos vídeos     | ALTA       |
+| RF-003 | Extrair ingredientes e tempos de preparo | ALTA       |
+| RF-004 | Exibir resumos de forma organizada       | MÉDIA      |
+| RF-005 | Permitir busca por resumos específicos   | MÉDIA      |
 
-### Requisitos não Funcionais
+### Requisitos Não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| ID      | Descrição do Requisito                           | Prioridade |
+| ------- | ------------------------------------------------ | ---------- |
+| RNF-001 | Suporte para dispositivos móveis                 | ALTA       |
+| RNF-002 | Interface intuitiva e responsiva                 | ALTA       |
+| RNF-003 | Processamento rápido de resumos                  | ALTA       |
+| RNF-004 | Armazenamento seguro dos vídeos                  | MÉDIA      |
+| RNF-005 | Compatibilidade com diferentes formatos de vídeo | MÉDIA      |
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-## Diagrama de Casos de Uso
-
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+| ID  | Restrição                                                       |
+| --- | --------------------------------------------------------------- |
+| 01  | O projeto deve ser concluído em seis meses.                     |
+| 02  | A IA deve suportar língua portuguesa.                           |
+| 03  | A solução deve ser acessível em dispositivos móveis e desktops. |
